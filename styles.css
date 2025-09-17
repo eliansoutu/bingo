@@ -3,15 +3,15 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  text-align: center;
   background: repeating-linear-gradient(
     45deg,
     #fff8f0,
     #fff8f0 40px,
     #f8e8d8 40px,
     #f8e8d8 80px
-  ); /* textura tipo mantel */
+  ); /* fondo tipo mantel */
   color: #333;
+  text-align: center;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 header .logo {
-  max-width: 140px;
+  max-width: 120px;
   display: block;
   margin: 0 auto 10px;
 }
@@ -34,49 +34,55 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
-#container {
+#bingo-card {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 40px auto;
   background: #fff;
-  padding: 25px;
+  padding: 30px;
   border-radius: 15px;
   border: 3px solid #b22222;
   box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
 
-#sortearBtn {
+#draw-btn {
   background: #b22222;
   color: #fff;
-  font-size: 1.4em;
-  padding: 15px 30px;
+  font-size: 1.5em;
+  padding: 15px 40px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   transition: all 0.3s ease;
   box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
 
-#sortearBtn:hover {
+#draw-btn:hover {
   background: #006400;
   transform: scale(1.05);
 }
 
-#pastaImage {
-  max-width: 250px;
+#pasta-image {
+  max-width: 280px;
   margin: 20px auto;
   display: block;
   border: 2px solid #ccc;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #fafafa;
   padding: 8px;
 }
 
-#pastaName {
+#pasta-number {
   font-size: 1.8em;
   font-weight: bold;
   color: #b22222;
   margin-top: 10px;
+}
+
+#remaining {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 8px;
 }
 
 footer {
