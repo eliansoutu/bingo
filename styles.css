@@ -10,29 +10,30 @@ body {
 
 header {
   padding: 15px;
-  background: #b22222; /* rojo vino */
-  color: white;
+  background: #f9f3e6; /* crema claro para contraste con logo */
+  color: #b22222;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 header .logo {
-  max-width: 100px;
+  max-width: 120px;
   display: block;
   margin: 0 auto 10px;
 }
 
 h1 {
   font-family: 'Italianno', cursive;
-  font-size: 3em;
+  font-size: 3.2em;
   margin: 0;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  color: #b22222;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 160px); /* resto del viewport menos header y footer */
+  min-height: calc(100vh - 160px); 
   background: repeating-linear-gradient(
     45deg,
     #fff8f0,
@@ -43,25 +44,26 @@ main {
 }
 
 #bingo-card {
-  max-width: 600px;
-  width: 90%;
+  max-width: 750px;   /* más ancho */
+  width: 95%;
+  min-height: 70vh;   /* más alto */
   margin: 20px;
   background: #fff;
-  padding: 30px;
-  border-radius: 15px;
-  border: 3px solid #b22222;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  padding: 40px;
+  border-radius: 18px;
+  border: 4px solid #b22222;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 
 #draw-btn {
   background: #b22222;
   color: #fff;
-  font-size: 1.5em;
-  padding: 15px 40px;
+  font-size: 1.6em;
+  padding: 18px 45px;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   cursor: pointer;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   transition: all 0.3s ease;
   box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
@@ -72,26 +74,26 @@ main {
 }
 
 #pasta-image {
-  max-width: 260px;
-  margin: 20px auto;
+  max-width: 350px;   /* imagen más grande */
+  margin: 25px auto;
   display: block;
   border: 2px solid #ccc;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fafafa;
-  padding: 8px;
+  padding: 10px;
 }
 
 #pasta-number {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bold;
   color: #b22222;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 #remaining {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #333;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 footer {
