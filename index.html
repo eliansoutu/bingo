@@ -4,21 +4,23 @@
   <meta charset="UTF-8">
   <title>Pasta Lovers Club Bingo</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <img src="logo.png" alt="Logo Pasta Lovers Club" class="logo">
-    <h1>Pasta Lovers Club Bingo</h1>
+    <h1><i class="fa-solid fa-utensils"></i> Pasta Lovers Club Bingo</h1>
   </header>
 
   <main>
     <div class="bingo-container">
+      <button id="draw-btn"><i class="fa-solid fa-dice"></i> Sortear Pasta</button>
+
       <div class="pasta-display">
-        <span id="pasta-number" class="pasta-number"></span>
+        <span id="pasta-number" class="pasta-number">—</span>
         <img id="pasta-image" class="pasta-img" src="" alt="Sorteo de pasta">
       </div>
     </div>
-    <button id="draw-btn">Sortear Pasta</button>
     <div id="remaining" class="remaining"></div>
   </main>
 
