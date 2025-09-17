@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "file": "icons/agnolotti.png"
+  },
+  {
+    "id": 2,
+    "file": "icons/alfabeto.png"
+  },
+  {
+    "id": 3,
+    "file": "icons/anellini.png"
+  },
+  {
+    "id": 4,
+    "file": "icons/bucatini.png"
+  },
+  {
+    "id": 5,
+    "file": "icons/campanelle.png"
+  },
+  {
+    "id": 6,
+    "file": "icons/cannelloni.png"
+  },
+  {
+    "id": 7,
+    "file": "icons/capelli d'angelo.png"
+  },
+  {
+    "id": 8,
+    "file": "icons/cappelletti.png"
+  },
+  {
+    "id": 9,
+    "file": "icons/casarecce.png"
+  },
+  {
+    "id": 10,
+    "file": "icons/cascatelli.png"
+  },
+  {
+    "id": 11,
+    "file": "icons/cavatappi.png"
+  },
+  {
+    "id": 12,
+    "file": "icons/conchiglie.png"
+  },
+  {
+    "id": 13,
+    "file": "icons/ditalina.png"
+  },
+  {
+    "id": 14,
+    "file": "icons/farfalle.png"
+  },
+  {
+    "id": 15,
+    "file": "icons/fiori.png"
+  },
+  {
+    "id": 16,
+    "file": "icons/fusilli.png"
+  },
+  {
+    "id": 17,
+    "file": "icons/garganelli.png"
+  },
+  {
+    "id": 18,
+    "file": "icons/gemelli.png"
+  },
+  {
+    "id": 19,
+    "file": "icons/gigli.png"
+  },
+  {
+    "id": 20,
+    "file": "icons/gnocchi.png"
+  },
+  {
+    "id": 21,
+    "file": "icons/lasagne.png"
+  },
+  {
+    "id": 22,
+    "file": "icons/lumaconi.png"
+  },
+  {
+    "id": 23,
+    "file": "icons/maccheroni.png"
+  },
+  {
+    "id": 24,
+    "file": "icons/mafalda.png"
+  },
+  {
+    "id": 25,
+    "file": "icons/malfatti.png"
+  },
+  {
+    "id": 26,
+    "file": "icons/mezze penne.png"
+  },
+  {
+    "id": 27,
+    "file": "icons/mezzelune.png"
+  },
+  {
+    "id": 28,
+    "file": "icons/orechietti.png"
+  },
+  {
+    "id": 29,
+    "file": "icons/orzo.png"
+  },
+  {
+    "id": 30,
+    "file": "icons/paccheri.png"
+  },
+  {
+    "id": 31,
+    "file": "icons/pansotti.png"
+  },
+  {
+    "id": 32,
+    "file": "icons/pappardelle.png"
+  },
+  {
+    "id": 33,
+    "file": "icons/penne.png"
+  },
+  {
+    "id": 34,
+    "file": "icons/pici.png"
+  },
+  {
+    "id": 35,
+    "file": "icons/quadrefiore.png"
+  },
+  {
+    "id": 36,
+    "file": "icons/ravioli.png"
+  },
+  {
+    "id": 37,
+    "file": "icons/rigatoni.png"
+  },
+  {
+    "id": 38,
+    "file": "icons/sedanini.png"
+  },
+  {
+    "id": 39,
+    "file": "icons/sorrentino.png"
+  },
+  {
+    "id": 40,
+    "file": "icons/spaghetti.png"
+  },
+  {
+    "id": 41,
+    "file": "icons/stellini.png"
+  },
+  {
+    "id": 42,
+    "file": "icons/strozzapetri.png"
+  },
+  {
+    "id": 43,
+    "file": "icons/tagliatelle.png"
+  },
+  {
+    "id": 44,
+    "file": "icons/tortelini.png"
+  },
+  {
+    "id": 45,
+    "file": "icons/tortiglioni.png"
+  },
+  {
+    "id": 46,
+    "file": "icons/ziti.png"
+  }
+]
