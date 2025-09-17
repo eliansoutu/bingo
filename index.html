@@ -2,30 +2,25 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Pasta Lovers Club Bingo</title>
+  <title>Bingo de Pastas</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <img src="logo.png" alt="Logo Pasta Lovers Club" class="logo">
-    <h1><i class="fa-solid fa-utensils"></i> Pasta Lovers Club Bingo</h1>
+    <h1>🍝 Bingo de Pastas 🍷</h1>
   </header>
 
   <main>
-    <div class="bingo-container">
-      <button id="draw-btn"><i class="fa-solid fa-dice"></i> Sortear Pasta</button>
-
-      <div class="pasta-display">
-        <span id="pasta-number" class="pasta-number">—</span>
-        <img id="pasta-image" class="pasta-img" src="" alt="Sorteo de pasta">
-      </div>
+    <div id="container">
+      <button id="sortearBtn">🎲 Sortear Pasta</button>
+      <img id="pastaImage" src="" alt="Imagen de pasta">
+      <p id="pastaName">Haz click en sortear</p>
     </div>
-    <div id="remaining" class="remaining"></div>
   </main>
 
   <footer>
-    <p>🍝 Pasta Lovers Club</p>
+    © 2025 Pasta Lovers Club
   </footer>
 
   <script src="script.js"></script>

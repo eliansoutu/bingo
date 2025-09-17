@@ -1,95 +1,89 @@
-/* Estilo general */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #fffaf3;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   text-align: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #fff8f0,
+    #fff8f0 40px,
+    #f8e8d8 40px,
+    #f8e8d8 80px
+  ); /* textura tipo mantel */
   color: #333;
 }
 
-/* Header */
 header {
   padding: 15px;
+  background: linear-gradient(to right, #b22222, #006400);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.logo {
-  height: 60px;
+header .logo {
+  max-width: 140px;
   display: block;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 10px;
 }
 
 h1 {
+  font-family: 'Italianno', cursive;
+  font-size: 3.2em;
   margin: 0;
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: #b22222; /* rojo vino */
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
-/* Contenedor del bingo */
-.bingo-container {
-  margin: 25px auto;
-  padding: 20px;
-  width: 420px;
-  border: 3px solid #b22222;
-  border-radius: 12px;
+#container {
+  max-width: 600px;
+  margin: 30px auto;
   background: #fff;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 25px;
+  border-radius: 15px;
+  border: 3px solid #b22222;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
 
-/* Botón sortear */
-#draw-btn {
-  display: block;
-  margin: 0 auto 20px auto;
-  padding: 14px 28px;
-  font-size: 1.3rem;
-  font-weight: bold;
+#sortearBtn {
+  background: #b22222;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 15px 30px;
   border: none;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #e74c3c, #f39c12);
-  color: white;
+  border-radius: 10px;
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
 
-#draw-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+#sortearBtn:hover {
+  background: #006400;
+  transform: scale(1.05);
 }
 
-/* Display de pasta */
-.pasta-display {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#pastaImage {
+  max-width: 250px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #fafafa;
+  padding: 8px;
 }
 
-.pasta-number {
-  font-size: 1.6rem;
+#pastaName {
+  font-size: 1.8em;
   font-weight: bold;
-  margin-bottom: 10px;
-  color: #444;
+  color: #b22222;
+  margin-top: 10px;
 }
 
-.pasta-img {
-  max-width: 260px;
-  max-height: 260px;
-  border-radius: 8px;
-  border: 2px solid #ddd;
-  background: #fdfdfd;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
-
-/* Texto de estado */
-.remaining {
-  margin-top: 15px;
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Footer */
 footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: #777;
+  margin-top: 20px;
+  padding: 10px;
+  background: #f0e0d6;
+  font-size: 0.9em;
+  color: #333;
+  border-top: 3px solid #b22222;
 }
