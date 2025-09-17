@@ -103,12 +103,3 @@ footer {
   color: #333;
   border-top: 3px solid #b22222;
 }
-
-#pasta-image.animate {
-  animation: bounce 0.2s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
