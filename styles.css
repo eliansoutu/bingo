@@ -3,40 +3,49 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background: repeating-linear-gradient(
-    45deg,
-    #fff8f0,
-    #fff8f0 40px,
-    #f8e8d8 40px,
-    #f8e8d8 80px
-  ); /* fondo tipo mantel */
+  background: #fffaf5; /* fondo claro */
   color: #333;
   text-align: center;
 }
 
 header {
   padding: 15px;
-  background: linear-gradient(to right, #b22222, #006400);
+  background: #b22222; /* rojo vino */
   color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 header .logo {
-  max-width: 120px;
+  max-width: 100px;
   display: block;
   margin: 0 auto 10px;
 }
 
 h1 {
   font-family: 'Italianno', cursive;
-  font-size: 3.2em;
+  font-size: 3em;
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px); /* resto del viewport menos header y footer */
+  background: repeating-linear-gradient(
+    45deg,
+    #fff8f0,
+    #fff8f0 40px,
+    #f8e8d8 40px,
+    #f8e8d8 80px
+  );
 }
 
 #bingo-card {
   max-width: 600px;
-  margin: 40px auto;
+  width: 90%;
+  margin: 20px;
   background: #fff;
   padding: 30px;
   border-radius: 15px;
@@ -63,7 +72,7 @@ h1 {
 }
 
 #pasta-image {
-  max-width: 280px;
+  max-width: 260px;
   margin: 20px auto;
   display: block;
   border: 2px solid #ccc;
@@ -86,7 +95,6 @@ h1 {
 }
 
 footer {
-  margin-top: 20px;
   padding: 10px;
   background: #f0e0d6;
   font-size: 0.9em;
