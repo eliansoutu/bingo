@@ -20,12 +20,31 @@ btn.addEventListener("click", () => {
     return;
   }
 
-  const randomIndex = Math.floor(Math.random() * remaining.length);
-  const selected = remaining.splice(randomIndex, 1)[0];
+  btn.disabled = true; // bloquear durante el sorteo
+  numberElement.textContent = "🎲 Sorteando...";
+  let cycles = 0;
+  const maxCycles = 15; // cantidad de cambios antes de detenerse
 
-  imgElement.src = selected.file;
-  numberElement.textContent = `#${selected.id}`;
-  updateRemaining();
+  const interval = setInterval(() => {
+    // mostrar imagenes aleatorias (pueden repetirse)
+    const randomFake = images[Math.floor(Math.random() * images.length)];
+    imgElement.src = randomFake.file;
+    numberElement.textContent = `#${randomFake.id}`;
+
+    cycles++;
+    if (cycles > maxCycles) {
+      clearInterval(interval);
+
+      // elegir la pasta definitiva
+      const randomIndex = Math.floor(Math.random() * remaining.length);
+      const selected = remaining.splice(randomIndex, 1)[0];
+
+      imgElement.src = selected.file;
+      numberElement.textContent = `#${selected.id}`;
+      updateRemaining();
+      btn.disabled = false; // habilitar botón de nuevo
+    }
+  }, 120); // velocidad de animación (ms)
 });
 
 // cargar lista desde images.json
