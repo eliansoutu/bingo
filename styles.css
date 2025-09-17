@@ -11,7 +11,7 @@ body {
 header {
   padding: 15px;
   background: #f9f3e6; /* crema claro para contraste con logo */
-  color: #b22222;
+  color: #f9f3e6;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
